@@ -1,0 +1,83 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+@font-face {
+    font-family:"athene" ;
+    src: url(../fonts/Athene.otf);
+}
+
+@font-face {
+    font-family:"opensans" ;
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.fontAthene{
+    font-family: "athene";
+}
+
+.fontOpenSans{
+    font-family: "opensans";
+}
+
+
+.test{
+    background-color: #EFE8D7;
+}
+
+header nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-bottom: 3vh;
+    background-color: #EFE8D7;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #282B29;
+}
+
+.heroTitleContainer{
+    text-align: center;
+    width: 60vw;
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EFE8D7;
+}
+
+.heroTitleContainerSection{
+    border-bottom: 1px solid #282B29;
+    margin-bottom: 2vw;
+}
+
+.heroTitleContainerp{
+    font-size: 5vw;
+    color: #042A5A;
+}
+
+.heroImageSection{
+
+}
+
+.heroImgSection img{
+    width: 30vw;
+    height: 40vw;
+    max-width: 260px;
+    max-height: 350px;
+    margin-bottom: 2vw;
+}
+
+.heroImgSection p{
+
+}
