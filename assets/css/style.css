@@ -188,6 +188,7 @@ header nav a{
 .understandingPoint{
     padding-left: 1vw;
     padding-top: 2.5vw;
+    font-size: 1vw;
     
 }
 
@@ -195,6 +196,7 @@ header nav a{
     width: 5vw;
     padding-top: 1vw;
     padding-bottom: 2vw;
+    font-size: 1vw;
 }
 
 .listPerformance{
@@ -207,10 +209,19 @@ header nav a{
 .performancePoint{
     padding-left: 1vw;
     padding-top: 2.5vw;
+    font-size: 1vw;
 }
 
 .performanceText{
     width: 5vw;
     padding-top: 1vw;
     padding-bottom: 2vw;
+    font-size: 1vw;
+}
+
+.workTogether{
+    width: 6vw;
+    height: 6vw;
+    margin-left: 85vw;
+
 }
