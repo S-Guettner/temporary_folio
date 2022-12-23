@@ -68,6 +68,8 @@ header nav a{
     margin-bottom: 2vw;
 }
 
+
+
 .heroTitleContainerp{
     font-size: 5vw;
     color: #042A5A;
@@ -88,8 +90,26 @@ header nav a{
 .heroImgSection p{
     font-size: 2.2vw;
     font-size: min(max(12px, 2vw), 18px);
-
+    padding-bottom: 8vw;
 }
 
 /* ==========second header section========== */
 
+.sectionTitle{
+    padding-top: 10vw;
+}
+
+.sectionTitle p:first-of-type{
+    padding-left: 10vw;
+    margin-bottom: 8vw;
+}
+
+.sectionTitle p:nth-of-type(2){
+    font-size: 10vw;
+    font-family: "athene";
+}
+
+.sectionTitle pre{
+    font-size: 10vw;
+    font-family: "athene";
+}
