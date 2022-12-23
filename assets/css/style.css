@@ -40,6 +40,8 @@ body{
 }
 
 header nav{
+    position: fixed;
+    width: 100vw;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -49,6 +51,7 @@ header nav{
     padding-right: 5vw;
     margin-bottom: 3vh;
     background-color: #EFE8D7;
+    z-index: 999;
 }
 
 header nav a{
@@ -57,6 +60,7 @@ header nav a{
 }
 
 .heroTitleContainer{
+    padding-top: 10vw;
     text-align: center;
     width: 60vw;
     max-width: 70vw;
@@ -220,8 +224,174 @@ header nav a{
 }
 
 .workTogether{
-    width: 6vw;
-    height: 6vw;
+    width: 8vw;
+    height: 8vw;
     margin-left: 85vw;
+}
+
+/* ===========main========== */
+
+
+main{
+    background-color:#DEB873 ;
+    padding-top: 7vw;
+}
+
+.sectionNumber{
+    padding-left: 5vw;
+    padding-bottom: 3vw;
+    font-size: 2vw;
+    color:#7D2222;
+}
+
+.sectionTitleMain{
+    font-size: 7vw;
+    color:#7D2222;
+}
+
+.mainTitle{
+    width: 15vw;
+    margin-left: auto;
+    margin-right: 10vw;
+    padding-top: 7vw;
+}
+
+.mainSectionText{
+    font-size: 2vw;
+    font-size: min(2vw,15px) ;
+    width:50vw;
+    line-height: 2.5vw;
+    margin-right: auto;
+    padding-left: 6vw;
+    padding-bottom: 15vw;
+}
+
+.articleRodrigo{
+    padding-left: 10vw;
 
 }
+
+.articleRodrigo p{
+    font-size: 3vw;
+    position: relative;
+    z-index: 2;
+    color: #7D2222;
+}
+
+.articleRodrigo pre{
+    font-size: 3vw;
+    z-index: 2;
+    position: relative;
+    color:#7D2222;
+}
+
+.articleRodrigoImg{
+    width: 40vw;
+    max-width: 600px;
+    height: 20vw;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    background:url(../img/bg-marconatto-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    bottom:10vw;
+    left: 20vw;
+}
+
+.kätheArticle img{
+    width: 50vw;
+    height: 20vw;
+    padding-left: 10vw;
+    margin-bottom: 10vw;
+}
+
+.kätheArticleText{
+    width: 5vw;
+    margin-left: auto;
+    margin-right: 30vw;
+    text-align: end;
+    font-size: 3.5vw;
+    position: relative;
+    top: 10vw;
+    color: #7D2222;
+}
+
+.victorArticle img{
+    width: 40vw;
+    height: 20vw;
+    margin-left: 40vw;
+    margin-bottom: 15vw;
+}
+
+.victorArticle p{
+    font-size: 3.5vw;
+    color: #7D2222;
+    width: 35vw;
+    position: relative;
+    top: 12vw;
+    left: 20vw;
+}
+
+.authorityArticle img{
+    width: 40vw;
+    height: 20vw;
+    margin-left: 15vw;
+    margin-bottom: 20vw;
+}
+
+.authorityArticle p{
+    width: 30vw;
+    font-size: 3.5vw;
+    margin-left: auto;
+    margin-right: 20vw;
+    position: relative;
+    top: 10vw;
+    left: 10vw;
+    color: #7D2222;
+}
+
+/* ==========footer========== */
+
+
+.pageNumber{
+    padding-left: 5vw;
+    padding-top: 5vw;
+    margin-bottom: 5vw;
+    color:#388883 ;
+}
+
+.pageTitle{
+    font-size: 7vw;
+    color: #388883;
+}
+
+.pageTitlePre{
+    font-size: 7vw;
+    color: #388883;
+    margin-bottom: 15vw;
+}
+
+.footerText{
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #388883;
+    font-size: 2vw;
+    line-height:3.5vw;
+    margin-bottom: 15vw;
+}
+
+footer nav a{
+    font-size: 2vw;
+    display: block;
+    width: 5vw;
+    margin-left: auto;
+    margin-right: 15vw;
+    line-height: 4vw;
+    text-decoration: none;
+    color: #388883;
+    font-family: "opensans";
+}
+
