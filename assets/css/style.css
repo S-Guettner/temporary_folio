@@ -1,4 +1,4 @@
-
+/* ==========global========== */
 
 
 *{
@@ -26,7 +26,14 @@
 }
 
 
-.test{
+
+
+
+/* ==========hero section========== */
+
+
+
+.heroSection{
     background-color: #EFE8D7;
 }
 
@@ -79,5 +86,10 @@ header nav a{
 }
 
 .heroImgSection p{
+    font-size: 2.2vw;
+    font-size: min(max(12px, 2vw), 18px);
 
 }
+
+/* ==========second header section========== */
+
